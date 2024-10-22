@@ -138,20 +138,28 @@ table {
     }
 
     .container-img {
-        width: 100%;
-        height: 40vh;
+        display:none;
     }
 
     .container-login {
         width: 100%;
-        justify-content: flex-start;
-        padding: 20px;
+        margin-top: 10%;
     }
 
     .label-login {
-        font-size: 20px;
+        font-size: 25px;
     }
 
+    .buttons{
+        align-items: center;
+        width: 100%;
+        gap:15px;
+    }
+
+    .inputs{
+        width: 100%;
+        margin-bottom: 5%;
+    }
     .inputs input, .buttons button {
         width: 80%;
         font-size: 16px;
