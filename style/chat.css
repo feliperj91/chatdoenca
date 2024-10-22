@@ -162,15 +162,10 @@ table {
     flex-direction: column;
     align-items: center;
     gap: 10%;
-
-
-
-
-
-
 }
 
-.container-chat textarea, .envio-mensagem textarea {
+.container-chat textarea,
+.envio-mensagem textarea {
     width: 50%;
     border-radius: 20px;
     padding: 20px;
@@ -217,7 +212,7 @@ table {
 
 }
 
-.envio-mensagem{
+.envio-mensagem {
     width: 100%;
     width: 100%;
     height: 100%;
@@ -225,7 +220,40 @@ table {
     align-items: center;
     justify-content: end;
     margin-top: 20%;
-    
-    
+
+
 }
 
+/* Estilos para dispositivos móveis (largura abaixo de 768px) */
+@media (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        
+        
+    }
+
+    .container-chat{
+        width:100%;
+        margin-bottom: 20%;
+        gap:15px;
+        
+    }
+
+    #mensagem-chat1{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    }
+
+    #mensagem-chat2{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    }
+}
